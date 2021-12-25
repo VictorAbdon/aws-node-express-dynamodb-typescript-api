@@ -15,6 +15,7 @@ authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
 
 This template demonstrates how to develop and deploy a simple Node Express API service, backed by DynamoDB database, running on AWS Lambda using the traditional Serverless Framework.
 
+it uses the typescript-plugin https://github.com/serverless/serverless-plugin-typescript to enable typescript support
 
 ## Anatomy of the template
 
@@ -29,12 +30,17 @@ Install dependencies with:
 ```
 npm install
 ```
+or using yarn
+```
+yarn install
+```
 
 and then deploy with:
 
 ```
 serverless deploy
 ```
+
 
 After running deploy, you should see output similar to:
 
