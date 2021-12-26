@@ -20,6 +20,8 @@ const client = new DynamoDBClient({ region: "us-east-1"});
 //https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/dynamodb-example-table-read-write.html
 
 // LOOK INTO https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/modules/_aws_sdk_lib_dynamodb.html <<<<
+// https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/dynamodb Examples Dynamo DB
+// https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_GetItem.html
 
 app.use(express.json());
 
